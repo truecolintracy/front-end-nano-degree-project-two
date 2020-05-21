@@ -1,0 +1,27 @@
+.page__header {
+  background-color: white;
+  min-height: 65px;
+  color: #000d3c;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#navbar__list li a {
+  color: #000d3c;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+#navbar__list li a:hover {
+  color: #88cbab;
+}
+
+.nav__item--active {
+  background-color: #000d3c;
+  color: white !important;
+}
